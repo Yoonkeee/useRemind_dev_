@@ -10,4 +10,8 @@ type 로그 = 개발 내용 기록
 interface Issue {
   issue?: 'To-Do' | 'Working-On'
 }
+
+const SemanticCommitMessages = {
+  types: ['학습', '개발', '생각', '기타']
+}
 ```
