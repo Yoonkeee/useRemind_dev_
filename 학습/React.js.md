@@ -167,4 +167,7 @@ function PortalComponent() {
 }
 ```
 
+React는 v16 이전까지는 Stack 구조를 갖고 렌더링을 하였는데, stack 구조는 rendering이나 작업의 순서를 바꿀 수 없었다. 이를 위해 Fiber를 도입하였다.
 
+## Hooks
+### Hooks란?
